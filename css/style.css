@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap");
+
 :root {
   --yellow: #658147;
   --black: #111;
@@ -14,7 +15,7 @@
   margin: 0;
   padding: 0;
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   outline: none;
   border: none;
   text-decoration: none;
@@ -91,17 +92,17 @@ section {
   left: 0;
   right: 0;
   -webkit-box-shadow: var(--box-shadow);
-          box-shadow: var(--box-shadow);
+  box-shadow: var(--box-shadow);
   padding: 1.5rem 10%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
   z-index: 1000;
   background: var(--white);
 }
@@ -153,19 +154,19 @@ section {
   top: 120%;
   left: 50%;
   -webkit-transform: translateX(-50%);
-          transform: translateX(-50%);
+  transform: translateX(-50%);
   width: 70rem;
   background: var(--white);
   -webkit-box-shadow: var(--box-shadow);
-          box-shadow: var(--box-shadow);
+  box-shadow: var(--box-shadow);
   padding: 1rem;
   display: none;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   gap: 1rem;
   -webkit-animation: fadeIn 0.2s linear;
-          animation: fadeIn 0.2s linear;
+  animation: fadeIn 0.2s linear;
 }
 
 .header .search-form.active {
@@ -198,15 +199,15 @@ section {
   top: 120%;
   left: 50%;
   -webkit-transform: translateX(-50%);
-          transform: translateX(-50%);
+  transform: translateX(-50%);
   width: 40rem;
   background: var(--white);
   -webkit-box-shadow: var(--box-shadow);
-          box-shadow: var(--box-shadow);
+  box-shadow: var(--box-shadow);
   padding: 2rem;
   text-align: center;
   -webkit-animation: fadeIn 0.2s linear;
-          animation: fadeIn 0.2s linear;
+  animation: fadeIn 0.2s linear;
   display: none;
 }
 
@@ -236,8 +237,8 @@ section {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   gap: 0.5rem;
   padding-top: 1.5rem;
   padding-bottom: 1rem;
@@ -295,7 +296,7 @@ section {
 
 .contact-info.active {
   -webkit-box-shadow: 0 0 0 100vw rgba(0, 0, 0, 0.7);
-          box-shadow: 0 0 0 100vw rgba(0, 0, 0, 0.7);
+  box-shadow: 0 0 0 100vw rgba(0, 0, 0, 0.7);
   display: block;
 }
 
@@ -310,7 +311,7 @@ section {
 
 .contact-info #close-contact-info:hover {
   -webkit-transform: rotate(90deg);
-          transform: rotate(90deg);
+  transform: rotate(90deg);
 }
 
 .contact-info .info {
@@ -380,8 +381,8 @@ section {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   position: relative;
   background-size: cover !important;
   background-position: center !important;
@@ -449,17 +450,17 @@ section {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-wrap: wrap;
   gap: 3rem;
 }
 
 .about .row .video {
   -webkit-box-flex: 1;
-      -ms-flex: 1 1 41rem;
-          flex: 1 1 41rem;
+  -ms-flex: 1 1 41rem;
+  flex: 1 1 41rem;
 }
 
 .about .row .video video {
@@ -468,8 +469,8 @@ section {
 
 .about .row .content {
   -webkit-box-flex: 1;
-      -ms-flex: 1 1 41rem;
-          flex: 1 1 41rem;
+  -ms-flex: 1 1 41rem;
+  flex: 1 1 41rem;
 }
 
 .about .row .content h3 {
@@ -490,11 +491,11 @@ section {
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: (minmax(16rem, 1fr))[auto-fit];
-      grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr));
   gap: 2rem;
   -webkit-box-align: end;
-      -ms-flex-align: end;
-          align-items: flex-end;
+  -ms-flex-align: end;
+  align-items: flex-end;
 }
 
 .about .box-container .box {
@@ -524,7 +525,7 @@ section {
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: (minmax(25rem, 1fr))[auto-fit];
-      grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
   gap: 2rem;
 }
 
@@ -533,13 +534,13 @@ section {
   padding: 3rem;
   background: var(--white);
   -webkit-box-shadow: var(--box-shadow);
-          box-shadow: var(--box-shadow);
+  box-shadow: var(--box-shadow);
   border: var(--border);
 }
 
 .services .box-container .box:hover img {
   -webkit-transform: translateY(-1rem);
-          transform: translateY(-1rem);
+  transform: translateY(-1rem);
 }
 
 .services .box-container .box img {
@@ -574,7 +575,7 @@ section {
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: (minmax(30rem, 1fr))[auto-fit];
-      grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
   gap: 2rem;
 }
 
@@ -584,7 +585,7 @@ section {
 
 .projects .box-container .box:hover .image img {
   -webkit-transform: scale(1.1);
-          transform: scale(1.1);
+  transform: scale(1.1);
 }
 
 .projects .box-container .box .image {
@@ -596,7 +597,7 @@ section {
   height: 100%;
   width: 100%;
   -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
   -webkit-transition: 0.2s linear;
   transition: 0.2s linear;
 }
@@ -607,8 +608,8 @@ section {
   display: flex;
   background: var(--white);
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
 }
 
 .projects .box-container .box .content .info {
@@ -656,7 +657,7 @@ section {
   width: 2rem;
   background: var(--light-bg);
   -webkit-transform: rotate(45deg);
-          transform: rotate(45deg);
+  transform: rotate(45deg);
 }
 
 .reviews .slide .user {
@@ -664,8 +665,8 @@ section {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   gap: 1.5rem;
 }
 
@@ -697,7 +698,7 @@ section {
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: (minmax(30rem, 1fr))[auto-fit];
-      grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
   gap: 2rem;
 }
 
@@ -707,7 +708,7 @@ section {
   padding: 2rem;
   border: var(--border);
   -webkit-box-shadow: var(--box-shadow);
-          box-shadow: var(--box-shadow);
+  box-shadow: var(--box-shadow);
 }
 
 .pricing .box-container .box i {
@@ -763,21 +764,23 @@ section {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-wrap: wrap;
   gap: 2rem;
 }
 
 .contact .row .map {
   -webkit-box-flex: 1;
-      -ms-flex: 1 1 41rem;
-          flex: 1 1 41rem;
+  -ms-flex: 1 1 41rem;
+  flex: 1 1 41rem;
   width: 100%;
 }
 
+
+
 .contact .row form {
   -webkit-box-flex: 1;
-      -ms-flex: 1 1 41rem;
-          flex: 1 1 41rem;
+  -ms-flex: 1 1 41rem;
+  flex: 1 1 41rem;
   background: var(--white);
   padding: 2rem;
 }
@@ -816,7 +819,7 @@ section {
 
 .blogs .slide:hover .image img {
   -webkit-transform: scale(1.1);
-          transform: scale(1.1);
+  transform: scale(1.1);
 }
 
 .blogs .slide .image {
@@ -831,7 +834,7 @@ section {
   height: 100%;
   width: 100%;
   -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
   -webkit-transition: 0.2s linear;
   transition: 0.2s linear;
 }
@@ -841,7 +844,7 @@ section {
   padding-top: 5rem;
   background: var(--white);
   -webkit-box-shadow: 0 0 1.5rem rgba(0, 0, 0, 0.2);
-          box-shadow: 0 0 1.5rem rgba(0, 0, 0, 0.2);
+  box-shadow: 0 0 1.5rem rgba(0, 0, 0, 0.2);
 }
 
 .blogs .slide .content h3 {
@@ -865,9 +868,9 @@ section {
   height: 10rem;
   pointer-events: none;
   -webkit-user-select: none;
-     -moz-user-select: none;
-      -ms-user-select: none;
-          user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }
 
 .footer {
@@ -891,10 +894,28 @@ section {
   color: var(--yellow);
 }
 
+#map-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#map {
+  height: 600px;
+  width: 1200px;
+}
+
+.mapbox {
+  height: 380px;
+  border-radius: 18px;
+}
+
+
 @media (max-width: 1200px) {
   .header {
     padding: 1.5rem 2rem;
   }
+
   section {
     padding: 3rem 5%;
   }
@@ -904,12 +925,15 @@ section {
   html {
     font-size: 55%;
   }
+
   section {
     padding: 3rem 2rem;
   }
+
   .header #menu-btn {
     display: inline-block;
   }
+
   .header .navbar {
     position: absolute;
     top: 99%;
@@ -919,14 +943,16 @@ section {
     border-top: var(--border);
     border-bottom: var(--border);
     -webkit-clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
-            clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+    clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
     -webkit-transition: 0.2s linear;
     transition: 0.2s linear;
   }
+
   .header .navbar.active {
     -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
-            clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
   }
+
   .header .navbar a {
     display: block;
     margin: 2rem;
@@ -937,17 +963,21 @@ section {
   .header .search-form {
     width: 90%;
   }
+
   .header .login-form {
     width: 90%;
   }
+
   .home .slide {
     -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
   }
+
   .home .slide .content {
     text-align: center;
   }
+
   .home .slide .content h3 {
     font-size: 3rem;
   }
@@ -957,8 +987,10 @@ section {
   html {
     font-size: 50%;
   }
+
   .about .row .content h3 {
     font-size: 2.5rem;
   }
 }
+
 /*# sourceMappingURL=style.css.map */

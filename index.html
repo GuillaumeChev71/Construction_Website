@@ -1,226 +1,209 @@
 <!DOCTYPE html>
 <html lang="fr">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="icon" href="./images/service-5.png" type="image/x-icon" />
-    <title>Cartayrade Vellas - Artisan Plaquiste</title>
 
-    <!-- font awesome cdn link  -->
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/lightgallery-js/1.4.0/css/lightgallery.min.css"
-    />
-    <link
-      rel="stylesheet"
-      href="https://unpkg.com/swiper@7/swiper-bundle.min.css"
-    />
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" href="./images/service-5.png" type="image/x-icon" />
 
-    <!-- custom css file link  -->
-    <link rel="stylesheet" href="css/style.css" />
-  </head>
-  <body>
-    <!-- header section starts  -->
-    <header class="header">
-      <a href="#" class="logo">S.A.R.L<span>Cartayrade Vellas</span></a>
+  <link href="https://api.mapbox.com/mapbox-gl-js/v2.6.1/mapbox-gl.css" rel="stylesheet" />
+  <title>Cartayrade Vellas - Artisan Plaquiste</title>
 
-      <nav class="navbar">
-        <a href="#home">Accueil</a>
-        <a href="#about">À propos</a>
-        <a href="#services">Services</a>
-        <a href="#projects">Projets</a>
-        <a href="#contact">Contact</a>
-      </nav>
+  <!-- font awesome cdn link  -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightgallery-js/1.4.0/css/lightgallery.min.css" />
+  <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+  <script src="https://api.mapbox.com/mapbox-gl-js/v2.6.1/mapbox-gl.js"></script>
 
-      <!-- <div class="icons">
+  <!-- custom css file link  -->
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+  <!-- header section starts  -->
+  <header class="header">
+    <a href="#" class="logo">S.A.R.L <span>Cartayrade Vellas</span></a>
+
+    <nav class="navbar">
+      <a href="#home">Accueil</a>
+      <a href="#about">À propos</a>
+      <a href="#services">Services</a>
+      <a href="#projects">Projets</a>
+      <a href="#contact">Contact</a>
+    </nav>
+
+    <!-- <div class="icons">
         <div id="menu-btn" class="fas fa-bars"></div>
         <div id="info-btn" class="fas fa-info-circle"></div>
         <div id="login-btn" class="fas fa-user"></div>
       </div> -->
 
-      <form action="" class="search-form">
-        <input
-          type="search"
-          name=""
-          placeholder="Recherchez ici..."
-          id="search-box"
-        />
-        <label for="search-box" class="fas fa-search"></label>
-      </form>
+    <form action="" class="search-form">
+      <input type="search" name="" placeholder="Recherchez ici..." id="search-box" />
+      <label for="search-box" class="fas fa-search"></label>
+    </form>
 
-      <form action="" class="login-form">
-        <h3>Connexion</h3>
-        <input type="email" placeholder="Votre email" class="box" />
-        <input type="password" placeholder="Votre mot de passe" class="box" />
-        <div class="flex">
-          <input type="checkbox" name="" id="remember-me" />
-          <label for="remember-me">Se souvenir de moi</label>
-          <a href="#">Mot de passe oublié ?</a>
-        </div>
-        <input type="submit" value="Se connecter" class="btn" />
-        <p>Pas de compte ? <a href="#">Créez-en un !</a></p>
-      </form>
-    </header>
+    <form action="" class="login-form">
+      <h3>Connexion</h3>
+      <input type="email" placeholder="Votre email" class="box" />
+      <input type="password" placeholder="Votre mot de passe" class="box" />
+      <div class="flex">
+        <input type="checkbox" name="" id="remember-me" />
+        <label for="remember-me">Se souvenir de moi</label>
+        <a href="#">Mot de passe oublié ?</a>
+      </div>
+      <input type="submit" value="Se connecter" class="btn" />
+      <p>Pas de compte ? <a href="#">Créez-en un !</a></p>
+    </form>
+  </header>
 
-    <div class="contact-info">
-      <div id="close-contact-info" class="fas fa-times"></div>
+  <div class="contact-info">
+    <div id="close-contact-info" class="fas fa-times"></div>
 
-      <div class="info">
-        <i class="fas fa-phone"></i>
-        <h3>Téléphone</h3>
-        <p>+123-456-7890</p>
-        <p>+111-222-3333</p>
+    <div class="info">
+      <i class="fas fa-phone"></i>
+      <h3>Téléphone</h3>
+      <p>+123-456-7890</p>
+      <p>+111-222-3333</p>
+    </div>
+
+    <div class="info">
+      <i class="fas fa-envelope"></i>
+      <h3>Email</h3>
+      <p>cartayradevellas@example.com</p>
+    </div>
+
+    <div class="info">
+      <i class="fas fa-map-marker-alt"></i>
+      <h3>Adresse du bureau</h3>
+      <p>Montpellier, France - 34000</p>
+    </div>
+
+    <div class="share">
+      <a href="#" class="fab fa-facebook-f"></a>
+      <a href="#" class="fab fa-twitter"></a>
+      <a href="#" class="fab fa-instagram"></a>
+      <a href="#" class="fab fa-linkedin"></a>
+    </div>
+  </div>
+
+  <!-- header section ends -->
+
+  <!-- home section starts  -->
+  <section class="home" id="home">
+    <div class="swiper home-slider">
+      <div class="swiper-wrapper">
+        <section class="swiper-slide slide" style="background: url(images/image_site_dom/slide_1.jpg) no-repeat;  background-size: 120%; rotate:350px;">
+          <div class="content">
+            <h3>Nous réalisons vos projets de plâtrerie et rénovation</h3>
+            <p>
+              Spécialisés dans les finitions intérieures, nous vous assurons un travail soigné et personnalisé.
+            </p>
+            <a href="#about" class="btn">En savoir plus</a>
+          </div>
+        </section>
+
+        <section class="swiper-slide slide" style="background: url(images/image_site_dom/slide_2.jpg) no-repeat">
+          <div class="content">
+            <h3>Votre intérieur, notre passion</h3>
+            <p>
+              Créons ensemble des espaces qui répondent à vos attentes, pour un confort optimal.
+            </p>
+            <a href="#about" class="btn">En savoir plus</a>
+          </div>
+        </section>
+
+        <section class="swiper-slide slide" style="background: url(images/image_site_dom/slide_3.jpg) no-repeat">
+          <div class="content">
+            <h3>Des finitions de qualité pour un intérieur unique</h3>
+            <p>
+              Plâtrerie, cloisonnement et isolation nous réalisons vos envies.
+            </p>
+            <a href="#about" class="btn">En savoir plus</a>
+          </div>
+        </section>
       </div>
 
-      <div class="info">
-        <i class="fas fa-envelope"></i>
-        <h3>Email</h3>
-        <p>cartayradevellas@example.com</p>
+      <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>
+    </div>
+  </section>
+  <!-- home section ends -->
+
+  <!-- about section starts  -->
+  <section class="about" id="about">
+    <h1 class="heading">À propos de nous</h1>
+
+    <div class="row">
+      <div class="video">
+        <video src="images/about-vid.mp4" loop muted autoplay></video>
       </div>
 
-      <div class="info">
-        <i class="fas fa-map-marker-alt"></i>
-        <h3>Adresse du bureau</h3>
-        <p>Montpellier, France - 34000</p>
-      </div>
-
-      <div class="share">
-        <a href="#" class="fab fa-facebook-f"></a>
-        <a href="#" class="fab fa-twitter"></a>
-        <a href="#" class="fab fa-instagram"></a>
-        <a href="#" class="fab fa-linkedin"></a>
+      <div class="content">
+        <h3 style="text-transform: unset;">Des experts en plâtrerie pour vos projets de rénovation</h3>
+        <p>
+          Forts de nombreuses années d'expérience, nous mettons notre savoir-faire artisanal au service de vos projets
+          de construction et de rénovation.
+        </p>
+        <a href="#services" class="btn">Lire plus</a>
       </div>
     </div>
 
-    <!-- header section ends -->
-
-    <!-- home section starts  -->
-    <section class="home" id="home">
-      <div class="swiper home-slider">
-        <div class="swiper-wrapper">
-          <section
-            class="swiper-slide slide"
-            style="background: url(images/home-slide-1.jpg) no-repeat"
-          >
-            <div class="content">
-              <h3>Nous réalisons vos projets de plâtrerie et rénovation</h3>
-              <p>
-                Spécialisés dans les finitions intérieures, nous vous assurons un travail soigné et personnalisé.
-              </p>
-              <a href="#about" class="btn">En savoir plus</a>
-            </div>
-          </section>
-
-          <section
-            class="swiper-slide slide"
-            style="background: url(images/home-slide-2.jpg) no-repeat"
-          >
-            <div class="content">
-              <h3>Votre intérieur, notre passion</h3>
-              <p>
-                Créons ensemble des espaces qui répondent à vos attentes, pour un confort optimal.
-              </p>
-              <a href="#about" class="btn">En savoir plus</a>
-            </div>
-          </section>
-
-          <section
-            class="swiper-slide slide"
-            style="background: url(images/home-slide-3.jpg) no-repeat"
-          >
-            <div class="content">
-              <h3>Des finitions de qualité pour un intérieur unique</h3>
-              <p>
-                Plâtrerie, cloisonnement, et décoration sur mesure, nous réalisons vos envies.
-              </p>
-              <a href="#about" class="btn">En savoir plus</a>
-            </div>
-          </section>
-        </div>
-
-        <div class="swiper-button-next"></div>
-        <div class="swiper-button-prev"></div>
-      </div>
-    </section>
-    <!-- home section ends -->
-
-    <!-- about section starts  -->
-    <section class="about" id="about">
-      <h1 class="heading">À propos de nous</h1>
-
-      <div class="row">
-        <div class="video">
-          <video src="images/about-vid.mp4" loop muted autoplay></video>
-        </div>
-
-        <div class="content">
-          <h3>Des experts en plâtrerie pour vos projets de rénovation</h3>
-          <p>
-            Forts de nombreuses années d'expérience, nous mettons notre savoir-faire artisanal au service de vos projets de construction et de rénovation.
-          </p>
-          <a href="#services" class="btn">Lire plus</a>
-        </div>
+    <div class="box-container">
+      <div class="box">
+        <h3>18+</h3>
+        <p>années d'expérience</p>
       </div>
 
-      <div class="box-container">
-        <div class="box">
-          <h3>10+</h3>
-          <p>années d'expérience</p>
-        </div>
-
-        <div class="box">
-          <h3>1500+</h3>
-          <p>projets réalisés</p>
-        </div>
-
-        <div class="box">
-          <h3>790+</h3>
-          <p>clients satisfaits</p>
-        </div>
-
-        <div class="box">
-          <h3>450+</h3>
-          <p>partenaires et collaborateurs</p>
-        </div>
+      <div class="box">
+        <h3>550+</h3>
+        <p>projets neufs ou rénovations</p>
       </div>
-    </section>
-    <!-- about section ends -->
 
-    <!-- services section starts  -->
-    <section class="services" id="services">
-      <h1 class="heading">Nos Services</h1>
+      <div class="box">
+        <h3>790+</h3>
+        <p>clients satisfaits</p>
+      </div>
 
-      <div class="box-container">
-        <div class="box">
-          <img src="images/service-1.png" alt="Construction de bâtiments" />
-          <h3>Construction de Bâtiments</h3>
-          <p>
-            Nous intervenons pour des projets de construction complète, en intégrant des finitions de haute qualité.
-          </p>
-        </div>
+      <!-- <div class="box">
+        <h3>450+</h3>
+        <p>partenaires et collaborateurs</p>
+      </div> -->
+    </div>
+  </section>
+  <!-- about section ends -->
 
-        <div class="box">
-          <img src="images/service-2.png" alt="Rénovation d'intérieur" />
-          <h3>Rénovation d'intérieur</h3>
-          <p>
-            Transformez votre intérieur avec notre expertise en rénovation.
-          </p>
-        </div>
+  <!-- services section starts  -->
+  <section class="services" id="services">
+    <h1 class="heading">Nos Services</h1>
 
-        <div class="box">
-          <img src="images/service-3.png" alt="Plâtrerie et cloisonnement" />
-          <h3>Plâtrerie et Cloisonnement</h3>
-          <p>
-            Nous réalisons les travaux de plâtrerie et cloisons pour créer des espaces personnalisés.
-          </p>
-        </div>
+    <div class="box-container">
+      <div class="box">
+        <img src="images/service-1.png" alt="Construction de bâtiments" />
+        <h3>Isolation</h3>
+        <p>
+          Nous intervenons pour des projets d'isolation intérieure et/ou extérieure, en intégrant des finitions de haute qualité.
+        </p>
+      </div>
 
-        <!-- <div class="box">
+      <div class="box">
+        <img src="images/service-2.png" alt="Rénovation d'intérieur" />
+        <h3>Rénovation </h3>
+        <p>
+          Transformez votre intérieur avec notre expertise en rénovation.
+        </p>
+      </div>
+
+      <div class="box">
+        <img src="images/service-3.png" alt="Plâtrerie et cloisonnement" />
+        <h3>Plâtrerie et Cloisonnement</h3>
+        <p>
+          Nous réalisons les travaux de plâtrerie et cloisons pour créer des espaces personnalisés.
+        </p>
+      </div>
+
+      <!-- <div class="box">
           <img src="images/service-4.png" alt="" />
           <h3>material supply</h3>
           <p>
@@ -264,157 +247,158 @@
             necessitatibus.
           </p>
         </div> -->
-      </div>
-    </section>
+    </div>
+  </section>
 
-    <!-- services section ends -->
+  <!-- services section ends -->
 
-    <!-- projects section starts  -->
+  <!-- projects section starts  -->
 
-    <section class="projects" id="projects">
-      <h1 class="heading">our projects</h1>
+  <section class="projects" id="projects">
+    <h1 class="heading">Nos projets</h1>
 
-      <div class="box-container">
-        <a href="images/project-1.jpg" class="box">
-          <div class="image">
-            <img src="images/project-1.jpg" alt="" />
+    <div class="box-container">
+      <a href="images/project-1.jpg" class="box">
+        <div class="image">
+          <img src="images/project-1.jpg" alt="" />
+        </div>
+        <div class="content">
+          <div class="info">
+            <h3>dream home</h3>
+            <p>construction, design</p>
           </div>
-          <div class="content">
-            <div class="info">
-              <h3>dream home</h3>
-              <p>construction, design</p>
-            </div>
-            <i class="fas fa-plus"></i>
-          </div>
-        </a>
+          <i class="fas fa-plus"></i>
+        </div>
+      </a>
 
-        <a href="images/project-2.jpg" class="box">
-          <div class="image">
-            <img src="images/project-2.jpg" alt="" />
+      <a href="images/project-2.jpg" class="box">
+        <div class="image">
+          <img src="images/project-2.jpg" alt="" />
+        </div>
+        <div class="content">
+          <div class="info">
+            <h3>dream home</h3>
+            <p>construction, design</p>
           </div>
-          <div class="content">
-            <div class="info">
-              <h3>dream home</h3>
-              <p>construction, design</p>
-            </div>
-            <i class="fas fa-plus"></i>
-          </div>
-        </a>
+          <i class="fas fa-plus"></i>
+        </div>
+      </a>
 
-        <a href="images/project-3.jpg" class="box">
-          <div class="image">
-            <img src="images/project-3.jpg" alt="" />
+      <a href="images/project-3.jpg" class="box">
+        <div class="image">
+          <img src="images/project-3.jpg" alt="" />
+        </div>
+        <div class="content">
+          <div class="info">
+            <h3>dream home</h3>
+            <p>construction, design</p>
           </div>
-          <div class="content">
-            <div class="info">
-              <h3>dream home</h3>
-              <p>construction, design</p>
-            </div>
-            <i class="fas fa-plus"></i>
-          </div>
-        </a>
+          <i class="fas fa-plus"></i>
+        </div>
+      </a>
 
-        <a href="images/project-4.jpg" class="box">
-          <div class="image">
-            <img src="images/project-4.jpg" alt="" />
+      <a href="images/project-4.jpg" class="box">
+        <div class="image">
+          <img src="images/project-4.jpg" alt="" />
+        </div>
+        <div class="content">
+          <div class="info">
+            <h3>dream home</h3>
+            <p>construction, design</p>
           </div>
-          <div class="content">
-            <div class="info">
-              <h3>dream home</h3>
-              <p>construction, design</p>
-            </div>
-            <i class="fas fa-plus"></i>
-          </div>
-        </a>
+          <i class="fas fa-plus"></i>
+        </div>
+      </a>
 
-        <a href="images/project-5.jpg" class="box">
-          <div class="image">
-            <img src="images/project-5.jpg" alt="" />
+      <a href="images/project-5.jpg" class="box">
+        <div class="image">
+          <img src="images/project-5.jpg" alt="" />
+        </div>
+        <div class="content">
+          <div class="info">
+            <h3>dream home</h3>
+            <p>construction, design</p>
           </div>
-          <div class="content">
-            <div class="info">
-              <h3>dream home</h3>
-              <p>construction, design</p>
-            </div>
-            <i class="fas fa-plus"></i>
-          </div>
-        </a>
+          <i class="fas fa-plus"></i>
+        </div>
+      </a>
 
-        <a href="images/project-6.jpg" class="box">
-          <div class="image">
-            <img src="images/project-6.jpg" alt="" />
+      <a href="images/project-6.jpg" class="box">
+        <div class="image">
+          <img src="images/project-6.jpg" alt="" />
+        </div>
+        <div class="content">
+          <div class="info">
+            <h3>dream home</h3>
+            <p>construction, design</p>
           </div>
-          <div class="content">
-            <div class="info">
-              <h3>dream home</h3>
-              <p>construction, design</p>
-            </div>
-            <i class="fas fa-plus"></i>
-          </div>
-        </a>
-      </div>
-    </section>
+          <i class="fas fa-plus"></i>
+        </div>
+      </a>
+    </div>
+  </section>
 
-    <!-- projects section ends -->
+  <!-- projects section ends -->
 
 
-    <!-- contact section starts  -->
+  <!-- contact section starts  -->
 
-    <section class="contact" id="contact">
-      <h1 class="heading">Contactez-nous </h1>
+  <section class="contact" id="contact">
+    <h1 class="heading">Contactez-nous </h1>
 
-      <div class="row">
-        <iframe
+    <div class="row">
+      <!-- <iframe
           class="map"
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15076.89592087332!2d72.8319697277345!3d19.14167056419224!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7b63aceef0c69%3A0x2aa80cf2287dfa3b!2sJogeshwari%20West%2C%20Mumbai%2C%20Maharashtra%20400047!5e0!3m2!1sen!2sin!4v1641716772852!5m2!1sen!2sin"
           allowfullscreen=""
           loading="lazy"
-        ></iframe>
+        ></iframe> -->
 
-        <form action="">
-          <h3>Ecrivez-nous !</h3>
-          <input type="text" placeholder="Nom" class="box" />
-          <input type="email" placeholder="Email" class="box" />
-          <input type="number" placeholder="Téléphone" class="box" />
-          <textarea
-            name=""
-            placeholder="Message"
-            class="box"
-            id=""
-            cols="30"
-            rows="10"
-          ></textarea>
-          <input type="submit" value="Envoyer" class="btn" />
-        </form>
+      <div id="map-container" class="map">
+        <div id="map" class="mapbox" data-mapbox>
+        </div>
       </div>
-    </section>
 
-    <!-- contact section ends -->
+      <form action="">
+        <h3>Ecrivez-nous !</h3>
+        <input type="text" placeholder="Nom" class="box" style="padding-left:15px;" />
+        <input type="email" placeholder="Email" class="box" style="padding-left:15px;" />
+        <input type="number" placeholder="Téléphone" class="box" style="padding-left:15px;"/>
+        <textarea name="" placeholder="Message" class="box" id="" cols="30" rows="10" style="padding-left:15px;"></textarea>
+        <input type="submit" value="Envoyer" class="btn" />
+      </form>
+    </div>
+  </section>
+
+  <!-- contact section ends -->
 
 
-    <!-- footer section starts  -->
+  <!-- footer section starts  -->
 
-    <section class="footer">
-      <div class="credit">
-        created by
-        <a href="https://itgcdev.fr" target="_blank">
-          <span>ITGC et Emma
-          </span>
-        </a>
-      </div>
-    </section>
+  <section class="footer">
+    <div class="credit">
+      created by
+      <a href="https://itgcdev.fr" target="_blank">
+        <span>ITGC et Emma
+        </span>
+      </a>
+    </div>
+  </section>
 
-    <!-- footer section ends -->
+  <!-- footer section ends -->
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightgallery-js/1.4.0/js/lightgallery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/lightgallery-js/1.4.0/js/lightgallery.min.js"></script>
 
-    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+  <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
 
-    <!-- custom js file link  -->
-    <script src="js/script.js"></script>
+  <!-- custom js file link  -->
+  <script src="js/script.js"></script>
 
-    <script>
-      lightGallery(document.querySelector(".projects .box-container"));
-    </script>
-  </body>
+  <script>
+    lightGallery(document.querySelector(".projects .box-container"));
+  </script>
+
+  <script src="https://api.mapbox.com/mapbox-gl-js/v2.6.1/mapbox-gl.js"></script>
+</body>
+
 </html>

@@ -3,27 +3,27 @@ let searchForm = document.querySelector('.header .search-form');
 let loginForm = document.querySelector('.header .login-form');
 let contactInfo = document.querySelector('.contact-info');
 
-document.querySelector('#menu-btn').onclick = () => {
-   navbar.classList.toggle('active');
-   searchForm.classList.remove('active');
-   loginForm.classList.remove('active');
-};
+// document.querySelector('#menu-btn').onclick = () => {
+//    navbar.classList.toggle('active');
+//    searchForm.classList.remove('active');
+//    loginForm.classList.remove('active');
+// };
 
-document.querySelector('#search-btn').onclick = () => {
-   searchForm.classList.toggle('active');
-   navbar.classList.remove('active');
-   loginForm.classList.remove('active');
-};
+// document.querySelector('#search-btn').onclick = () => {
+//    searchForm.classList.toggle('active');
+//    navbar.classList.remove('active');
+//    loginForm.classList.remove('active');
+// };
 
-document.querySelector('#login-btn').onclick = () => {
-   loginForm.classList.toggle('active');
-   navbar.classList.remove('active');
-   searchForm.classList.remove('active');
-};
+// document.querySelector('#login-btn').onclick = () => {
+//    loginForm.classList.toggle('active');
+//    navbar.classList.remove('active');
+//    searchForm.classList.remove('active');
+// };
 
-document.querySelector('#info-btn').onclick = () => {
-   contactInfo.classList.add('active');
-}
+// document.querySelector('#info-btn').onclick = () => {
+//    contactInfo.classList.add('active');
+// }
 
 document.querySelector('#close-contact-info').onclick = () => {
    contactInfo.classList.remove('active');
@@ -98,3 +98,13 @@ var swiper = new Swiper(".logo-slider", {
       },
    },
 });
+
+
+mapboxgl.accessToken = 'pk.eyJ1IjoiZ3VpdG91bmVveiIsImEiOiJjbHI1Y3ZmZHMxbWI4MmpwODRlMWZhdGxzIn0.Gl-6FFo3NLZ-AhSnOKp2pQ'; // Remplacez VOTRE_CLÉ_API_MAPBOX par votre clé d'API Mapbox
+var map = new mapboxgl.Map({
+   container: 'map',
+   style: 'mapbox://styles/mapbox/streets-v11', // Style de carte par défaut
+   center: [3.0786, 44.0994], // Coordonnées du centre de la carte pour Millau
+   zoom: 12 // Niveau de zoom initial
+});
+
